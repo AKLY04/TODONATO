@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/activity_edit_task_new"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTaskText_new"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:fontFamily="@font/poppins"
+        android:hint="Edit TODO Task"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <Button
+        android:id="@+id/editTaskButton_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTaskText_new"
+        android:layout_alignParentEnd="true"
+        android:background="#38C24E"
+        android:text="Edit"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+</RelativeLayout>
