@@ -6,6 +6,7 @@
         <item name="android:windowFullscreen">true</item>
         <item name="colorPrimaryDark">@color/purple_700</item>
         <item name="colorAccent">@color/teal_200</item>
+        <item name="android:windowTranslucentNavigation">true</item>
         <!-- Customize your theme here. -->
     </style>
 
@@ -15,12 +16,16 @@
         <item name="android:windowFullscreen">true</item>
         <item name="colorPrimaryDark">@color/purple_700</item>
         <item name="colorAccent">@color/teal_200</item>
+        <item name="android:windowTranslucentNavigation">true</item>
         <!-- Customize your theme here. -->
+
+
     </style>
 
     <style name="Theme.TODONATO.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
     </style>
 
     <style name="Theme.TODONATO.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
